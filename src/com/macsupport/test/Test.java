@@ -1,5 +1,6 @@
 package com.macsupport.test;
 
+import com.macsupport.zoo.Bat;
 import com.macsupport.zoo.Gorilla;
 import com.macsupport.zoo.Mammal;
 
@@ -13,6 +14,11 @@ public class Test {
 		joe.eat();
 		joe.throwSomething();
 		joe.displayEnergy();
+		Bat jerry = new Bat();
+		jerry.displayEnergy();
+		jerry.fly();
+		jerry.displayEnergy();
+		
 		
 
 	}
